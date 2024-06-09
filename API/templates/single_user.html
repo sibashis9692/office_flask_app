@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page</title>
+    <style>
+        .avatar {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Account Information</h2>
+        <div>
+            <img src={{datas.avatar}} alt="Avatar" class="avatar">
+        </div>
+        <div>
+            <p><strong>Id :</strong> {{datas.id}}</p>
+            <p><strong>First Name:</strong> {{datas.first_name}}</p>
+            <p><strong>Last Name:</strong> {{datas.last_name}}</p>
+            <p><strong>Email:</strong> {{datas.email}}</p>
+        </div>
+    </div>
+</body>
+</html>
